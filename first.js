@@ -23,13 +23,15 @@ let name = "DarshanKGithub";
 console.log(name);
 */
 
-const student = {
-    fullName: "Darshan",
-    age: 22,
-    cgpa: 9.6,
-    isPass:true,
-};
+// const student = {
+//     fullName: "Darshan",
+//     age: 22,
+//     cgpa: 9.6,
+//     isPass:true,
+// };
 
-student["age"] = student["age"] + 9;
+// student["age"] = student["age"] + 9;
 
-console.log(student["age"]) ;
+// console.log(student["age"]) ;
+
+aleart("Priya kha jaygi!!!");
