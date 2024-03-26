@@ -1,37 +1,30 @@
-console.log("p")
-console.log("r")
-console.log("i")
-console.log("y")
-console.log("a")
-
-function saymyname(){
-    console.log("p")
-console.log("r")
-console.log("i")
-console.log("y")
-console.log("a")
+//Add Two Numbers//
+function addTwoNumbers(int1, int2) {
+    console.log(int1 + int2);
 }
-saymyname()
+addTwoNumbers(4, 5);
 
-function add2numbers(num1,num2){
-    console.log(3+4)
+// program to find the square of a number
+const square = (num1, num2) => {
+    console.log(num1 * num1);
+    console.log(num2 * num2);
 }
-add2numbers(3,4)
+square(2, 3);
 
-function loggedinusername(username){
-console.log('(priya)just logged in')
-// }myNewArray
-loggedinusername("priya")
 
-// const myNewArray=[200,400,600,800,1000]
-function arrayvalues(myarray){
-    
-     result(myarray[2])
+//add two numbeers take input from user
+function add(x, y) {
+    console.log(x + y)
 }
-console.log(arrayvalues(myNewArray));
+let x = parseFloat(prompt("enter first number"));
+let y = parseFloat(prompt('enter second number'));
 
-function multiply(a,b){
-    b=typeof b!=="undefined"?b:1;
-return a*b;
+let result = add(x + y);
+console.log("addition of two numbers is" + result);
+
+
+
+//block
+function add(x) {
+    console.log(x)   //curly braces
 }
-console.log (multiply(5)); 
